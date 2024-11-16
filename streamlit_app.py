@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib
+print(matplotlib.__version__)
 
 # Title
 st.title("Simple Data Analysis App")
